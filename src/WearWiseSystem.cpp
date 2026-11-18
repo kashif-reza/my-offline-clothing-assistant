@@ -176,7 +176,7 @@ using namespace std;
 
         while (true) {
             cout << "\n======================================================================\n";
-            cout << "                              WEARWISE                                \n";
+            cout << "                    MY OFFLINE CLOTHING ASSISTANT                     \n";
             cout << "       Offline Smart Fashion Assistant & Wardrobe System              \n";
             cout << "======================================================================\n";
             cout << " Active User: " << user.name << " [" << user.targetGroup << "]\n";
@@ -217,7 +217,7 @@ using namespace std;
                 case 10: recommendClothingSizes(); break;
                 case 11: rateOutfit(); break;
                 case 0:
-                    cout << "\nSaving all session data to text files. Exiting WearWise...\n";
+                    cout << "\nSaving all session data to text files. Exiting the clothing assistant...\n";
                     return;
                 default:
                     cout << "Invalid choice. Please enter a number between 0 and 11.\n";

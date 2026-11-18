@@ -49,7 +49,7 @@ void WearWiseSystem::generateAIPrompt() {
          << "sharp details, editorial fashion photography. Keep the complete outfit visible head to toe.\n";
     cout << "======================================================================\n";
     cout << "Copy this prompt into an external image-generation or virtual try-on tool.\n";
-    cout << "WearWise creates the prompt; the external tool creates the image.\n";
+    cout << "The assistant creates the prompt; the external tool creates the image.\n";
     cout << "Press Enter to return...";
     cin.get();
 }

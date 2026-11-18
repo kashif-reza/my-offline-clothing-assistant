@@ -9,7 +9,7 @@ on:
 
 jobs:
   build:
-    name: Configure and build WearWise
+    name: Configure and build clothing assistant
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
